@@ -14,7 +14,7 @@ export LD_LIBRARY_PATH
 export MPI_ROOT
 
 %runscript
-    exec /usr/bin/vlc "&@"
+    exec /usr/bin/vlc "$@"
 
 %post
     # commands to be executed inside container during bootstrap
